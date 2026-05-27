@@ -12,7 +12,7 @@ Estudante do 5º período de **Sistemas de Informação** na UNIFEI. Busco oport
 
 ## 🌐 Acesse o site
 
-🔗 **[gubgoncalves.github.io/CV_PORTFOLIO](//https://github.com/gubgoncalves/CV_PORTFOLIO)** 
+🔗 **[gubgoncalves.github.io/CV_PORTFOLIO](https://github.com/gubgoncalves/CV_PORTFOLIO)**
 
 ---
 
