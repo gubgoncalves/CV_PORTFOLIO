@@ -8,6 +8,14 @@
 
 Estudante do 5º período de **Sistemas de Informação** na UNIFEI. Busco oportunidades que impulsionem o meu crescimento profissional e me permitam aplicar os meus conhecimentos na prática. Tenho forte interesse e atuo nas áreas de **Análise de Dados**, **Desenvolvimento de Software**, **Infraestrutura** e **Suporte de TI**, sempre com foco em criar soluções eficientes e inovadoras.
 
+---
+
+## 🌐 Acesse o site
+
+🔗 **[gubgoncalves.github.io/CV_PORTFOLIO](//https://github.com/gubgoncalves/CV_PORTFOLIO)**
+
+---
+
  📸 Preview
 
 | Início | Currículo |
