@@ -99,24 +99,6 @@ Cards interativos com links para:
 
 ---
 
-## 🚀 Como rodar localmente
-
-```bash
-# 1. Clone o repositório
-git clone https://github.com/gubgoncalves/CV.git
-
-# 2. Entre na pasta
-cd CV
-
-# 3. Abra no VS Code
-code .
-
-# 4. Use a extensão Live Server para visualizar
-# Clique com botão direito no index.html → "Open with Live Server"
-```
-
----
-
 ## 📬 Contato
 
 | | |
