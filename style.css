@@ -1,8 +1,3 @@
-/* ═══════════════════════════════════════
-   Gustavo Barbosa Gonçalves — Portfolio
-   style.css
-═══════════════════════════════════════ */
-
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -129,9 +124,6 @@ section { padding-top: 60px; }
   color: var(--bg3);
 }
 
-/* ════════════════════════════════
-   HOME
-════════════════════════════════ */
 #home { min-height: 100vh; display: flex; flex-direction: column; }
 
 .hero {
@@ -289,9 +281,6 @@ section { padding-top: 60px; }
 }
 .info-val { font-size: 0.84rem; color: var(--text); }
 
-/* ════════════════════════════════
-   RESUME
-════════════════════════════════ */
 #resume { background: var(--bg); }
 
 .resume-body {
@@ -587,7 +576,6 @@ footer {
 }
 footer span { color: var(--accent); }
 
-/* ─── RESPONSIVE ─── */
 @media (max-width: 900px) {
   .hab-cards { grid-template-columns: 1fr 1fr; }
   .proj-cards { grid-template-columns: 1fr 1fr; }
