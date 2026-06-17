@@ -1,6 +1,6 @@
 # 💼 Portfólio — Gustavo Barbosa Gonçalves
 
-> Currículo online desenvolvido como projeto de capacitação na **Asimov Jr**, empresa júnior da Universidade Federal de Itajubá (UNIFEI). hauehaeua
+> Currículo online desenvolvido como projeto de capacitação na **Asimov Jr**, empresa júnior da Universidade Federal de Itajubá (UNIFEI). 
 
 ---
 
