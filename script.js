@@ -20,10 +20,25 @@ window.addEventListener("scroll", () => {
 
 // ── Download CV ──
 function downloadCV() {
-  const link = document.createElement("a");
-  link.href = "cv.pdf";
-  link.download = "Curriculo_Gustavo_Barbosa_Goncalves.pdf";
-  link.click();
+  fetch("cv.pdf")
+    .then(res => {
+      if (!res.ok) throw new Error("not found");
+      return res.blob();
+    })
+    .then(blob => {
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "Curriculo_Gustavo_Barbosa_Goncalves.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    })
+    .catch(() => {
+      // Fallback (ex: aberto via file://): abre em nova aba, sem sair do portfólio
+      window.open("cv.pdf", "_blank");
+    });
 }
 
 // ── Modal UNIFEI ──

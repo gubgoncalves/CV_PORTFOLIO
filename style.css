@@ -457,6 +457,7 @@ section { padding-top: 60px; }
   margin-bottom: 18px;
   color: #fff;
 }
+.tools-label span { color: var(--accent); }
 .tools-row { display: flex; gap: 14px; flex-wrap: wrap; }
 .tool-box {
   width: 62px; height: 62px;
