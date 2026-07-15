@@ -1,9 +1,3 @@
-// ═══════════════════════════════════════
-//   Gustavo Barbosa Gonçalves — Portfolio
-//   script.js
-// ═══════════════════════════════════════
-
-// ── Active nav on scroll ──
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav a");
 
@@ -18,7 +12,6 @@ window.addEventListener("scroll", () => {
   });
 });
 
-// ── Download CV ──
 function downloadCV() {
   fetch("cv.pdf")
     .then(res => {
@@ -41,7 +34,6 @@ function downloadCV() {
     });
 }
 
-// ── Modal UNIFEI ──
 function openModal() {
   document.getElementById("modal").classList.add("open");
 }
@@ -54,7 +46,6 @@ function closeModalBtn() {
   document.getElementById("modal").classList.remove("open");
 }
 
-// ── Animate skill bars on scroll ──
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
